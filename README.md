@@ -1,5 +1,5 @@
 # 0x19. C - Stacks, Queues - LIFO, FIFO
-**About:** In this project, we created a simple interpreter for Monty ByteCodes. The interpreter reads a bytecode file and executes the bytecode commands.
+**About:** In this project, I created a simple interpreter for Monty ByteCodes. The interpreter reads a bytecode file and executes the bytecode commands.
 ### The Monty language
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. 
 
@@ -16,17 +16,6 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 
 ### Resource:
 * [Difference between Stack and Queue Data Structures](https://www.geeksforgeeks.org/difference-between-stack-and-queue-data-structures/) || 
-
-## General Requirements
-* Allowed editors: **vi**, **vim**, **emacs**
-* All files is compiled on **Ubuntu 20.04 LTS using gcc**, using the options **-Wall -Werror -Wextra -pedantic -std=gnu89**
-* All files ends with a new line
-* There is **README.md** file at the root of the **alx-low_level_programming**
-* Maximum of one global variable is allowed
-* No more than 5 functions per file
-* The C standard library is allowed
-* The prototypes of all the functions were included in the header file called monty.h
-* All the header files are include guarded
 
 ## Instruction given:
 * To use the following data structures for this project, and to also include them in the header file.
@@ -117,5 +106,5 @@ julien@ubuntu:~/monty$
 |:-------------------------------------------------------|:------------------------------------------------|:----------------------------------------------------------|
 | ~/monty$ `cat -e bytecodes/00.m` <br> push 1$ <br> push 2$ <br> push 3$ <br> pall$ <br> ~/monty$ `./monty bytecodes/00.m` <br> 3 <br> 2 <br> 1  | ~/monty$ `cat bytecodes/07.m`  <br> push 1 <br> push 2 <br> push 3 <br> pall <br> pop <br> pall <br> pop <br> pall <br> pop <br> pall <br>  ~/monty$ `./monty bytecodes/07.m`  <br> 3 <br> 2 <br> 1 <br> 2 <br> 1 <br> 1 | ~/monty$ `cat bytecodes/09.m` <br> push 1 <br> push 2 <br> push 3 <br> pall <br> swap <br> pall <br> ~/monty$ `./monty bytecodes/09.m` <br> 3 <br> 2 <br> 1 <br> 2 <br> 3 <br> 1 |
 
-## Authors/Collaborators
-[Okpara Onyedikachi](https://github.com/Dikachis/monty/) || [Duff Iniobong](https://github.com/Duffigoogle/monty/)
+## Author
+[Bright Aggrey](https://github.com/stg246/monty/)
